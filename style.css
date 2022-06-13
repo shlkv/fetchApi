@@ -1,0 +1,97 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+  
+}
+
+
+
+.navbar{
+  background-color: #0d6efd;
+  height: 80px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+  
+}
+.navbar__title{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  
+  
+}
+.navbar__container{
+  margin-left: 60px;
+}
+.card__getter{
+  margin: 30px 60px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+.users__get-users:hover{
+  background-color: white;
+
+}
+.wrapper{
+  margin: 30px 60px;
+  
+}
+
+
+.users__get-users{
+  color: #0d6efd;
+  background-color: white;
+  padding: .5em 2em;
+  border: 2px solid;
+  border-radius: 6px;
+  transition: 0.2s;
+} 
+.users__get-users:hover {
+  background: #0d6efd;
+  color: white;
+  }
+.users__get-users:active { 
+  background: #0d6efd;; 
+}
+.card__user{
+  color: #0d6efd;
+  margin-bottom: 20px;
+  color: #0d6efd;
+  background-color: white;
+  padding: .5em 2em;
+  border: 2px solid;
+  border-radius: 6px;
+  border-color: #0d6efd; ;
+  
+}
+.card__user:hover{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  background: #0d6efd;
+  color: white;
+}
+.user__wrapper{
+  margin-left: 20px
+}
+.card-user__ava{
+  width: 150px;
+  margin: 15px 30%;
+  border-radius: 100px;
+
+}
+.wrapper__name{
+  text-align: center;
+}
+/* .posts__get-posts {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px 12px 3px;
+  text-emphasis-color: #9370DB;
+} */
