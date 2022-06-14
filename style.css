@@ -29,6 +29,9 @@ body {
   
   
 }
+.navbar__title:hover{
+  color:white;
+}
 .navbar__container{
   margin-left: 60px;
 }
@@ -61,15 +64,23 @@ body {
 .users__get-users:active { 
   background: #0d6efd;; 
 }
+.users__list{
+  display: flex;
+  flex-wrap: wrap;
+  /* max-width: 1400px; */
+  justify-content: space-between;
+}
+
 .card__user{
   color: #0d6efd;
-  margin-bottom: 20px;
-  color: #0d6efd;
+  margin-bottom: 20px ;
   background-color: white;
-  padding: .5em 2em;
+  /* padding: .5em 2em; */
   border: 2px solid;
   border-radius: 6px;
-  border-color: #0d6efd; ;
+  width: 400px;
+  text-align: center;
+ 
   
 }
 .card__user:hover{
@@ -88,6 +99,19 @@ body {
 }
 .wrapper__name{
   text-align: center;
+}
+.btn__spinner{
+  background: #0d6efd;
+  color: white;
+  padding: .5em 2em;
+  border: 2px solid;
+  border-radius: 6px;
+  transition: 0.2s;
+  margin-left: 70px;
+  
+}
+.spinner-border{
+  color:white;
 }
 /* .posts__get-posts {
   background-color: white;
